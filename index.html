@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BACKYARD ULTRA ABIDJAN — Accueil</title>
+  <!-- Bootstrap 5 CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <!-- <a class="brand" href="index.html"> -->
+        <img src="f1ff922e-295b-49ad-bebc-51eb7b3613b9.jpg" alt="logo" class="logo">
+        <span>BACKYARD ULTRA ABIDJAN</span>
+
+      <button class="nav-toggle" aria-label="ouvrir le menu">☰</button>
+
+      <nav class="nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="actualite.html">Actualité</a></li>
+          <li><a href="competition.html">Compétition</a></li>
+          <li><a href="calendrier.html">Calendrier</a></li>
+          <li><a href="athlete.html">Athlète</a></li>
+          <li><a href="resultat.html">Résultats</a></li>
+
+          <li class="has-dropdown">
+            <a href="#">Photos ▾</a>
+            <ul class="dropdown">
+              <li><a href="photos.html#championnat">Championnat</a></li>
+              <!-- <li><a href="photos.html#tournoi">Tournoi</a></li> -->
+              <!-- <li><a href="photos.html#entrainement">Entraînement</a></li> -->
+            </ul>
+          </li>
+
+          <li class="has-dropdown">
+            <a href="#">Vidéos ▾</a>
+            <ul class="dropdown">
+              <li><a href="videos.html#championnat">Championnat</a></li>
+              <li><a href="videos.html#interviews">Interviews</a></li>
+            </ul>
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-slider" aria-label="slider">
+    <div class="slider-wrap">
+      <div class="slide active" style="background-image:url('d22e8961-2475-4042-af97-1299fb267251.jpg')">
+        <div class="slide-inner">
+          <h2>Bienvenue au BACKYARD ULTRA ABIDJAN</h2>
+          <p>Suivez nos compétitions, résultats et galeries.</p>
+          <a class="btn" href="actualite.html">Voir les actualités</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image:url('2d8a5af5-74cb-4401-a75d-7e4788d02a1b.jpg')">
+        <div class="slide-inner">
+          <h2>Nos athlètes en action</h2>
+          <p>Performances, entraînements et coulisses.</p>
+          <a class="btn" href="competition.html">Prochaines compétitions</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="prev">◀</button>
+      <button class="next">▶</button>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="features">
+      <article>
+        <h3>Compétitions</h3>
+        <p>Retrouvez les détails des compétitions et classements.</p>
+        <a href="competition.html">Voir</a>
+      </article>
+      <article>
+        <h3>Résultats en direct</h3>
+        <p>Mises à jour en temps réel après chaque épreuve.</p>
+        <a href="resultat.html">Voir</a>
+      </article>
+      <article>
+        <h3>Galeries</h3>
+        <p>Photos et vidéos classées par compétition.</p>
+        <a href="photos.html">Voir</a>
+      </article>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <h4 class="counter" data-target="150">0</h4>
+        <p>Compétitions</p>
+      </div>
+      <div class="stat">
+        <h4 class="counter" data-target="1200">0</h4>
+        <p>Participants</p>
+      </div>
+      <div class="stat">
+        <h4 class="counter" data-target="85">0</h4>
+        <p>Podiums</p>
+      </div>
+    </section>
+
+    <section class="latest-news">
+      <h3>Dernières actualités</h3>
+      <div class="news-grid">
+        <article class="card">
+          <img src="2acece4a-47b4-4dd3-bd65-f9241f971d64.jpg" alt="actualité">
+          <h4>Titre de l'actualité</h4>
+          <p>Résumé court de l'actualité.</p>
+          <a href="actualite.html">Lire</a>
+        </article>
+        <article class="card">
+          <img src="images/photo2.jpg" alt="actualité">
+          <h4>Interview</h4>
+          <p>Entretien exclusif avec un athlète.</p>
+          <a href="actualite.html">Lire</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+      
+        <p>© 2025 BACKYARD ULTRA ABIDJAN</p>
+      </div>
+      <nav>
+        <a href="#">Mentions</a>
+        <a href="#">Confidentialité</a>
+      </nav>
+    </div>
+  </footer> -->
+  <footer>
+   <div class="container d-flex justify-content-between align-items-center">
+    <div>&copy; <span id="year"></span> Backyard Ultra 2025</div>
+   </div>
+  </footer>
+
+  <!-- <div id="lightbox" class="lightbox hidden" role="dialog" aria-hidden="true">
+    <button class="lb-close" aria-label="fermer">✕</button>
+    <img class="lb-img" src="" alt="">
+    <div class="lb-caption"></div>
+  </div>
+
+  <div id="videoModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-inner">
+      <button class="modal-close">✕</button>
+      <div class="video-wrap" style="text-align:center;padding:0.6rem">
+        <img class="modal-video" src="" alt="video preview" style="max-width:100%;height:auto;border-radius:8px">
+      </div>
+    </div>
+  </div> -->
+</body>
+</html>
